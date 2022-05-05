@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     /*I am a CSS comment!*/
     color: #39a6b2;
@@ -15,7 +16,7 @@ header {
     background-color: #39a6b2;
 }
 
-header h1 {
+ header h1 {
 font-weight: bold;
 font-size: 36px;
 color:#fce138;
