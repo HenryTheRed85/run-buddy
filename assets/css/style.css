@@ -69,5 +69,56 @@ footer a {
 
 section {
     padding: 60px;
-    background-image:url('../css/images/hero-bg.jpg');
 }
+/*hero style begins*/ 
+.hero {
+    background-image: url('../css/images/hero-bg.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position:relative
+}
+/*hero style ends*/
+.hero-form {
+    border: solid 3px #024e76;
+    background-color:#fce138 ;
+    padding:18px ;
+    width:550px;
+    color:#024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 75px;
+}
+
+.hero-form h3 {
+    font-size: 23px;
+    margin: 0;
+}
+
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: solid 1px #024e76;
+    display: block;
+    padding: 7px 15px;
+    margin-bottom: 15px;
+    font-size:16px;
+    color: #024e76;
+    width: 100%;
+
+}
+
+.hero-form label {
+    margin: 0 5px
+}
+
+.hero-form button {
+    border: none;
+    color:#fce138;
+    background-color: #024e76;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/*hero ends here*/
